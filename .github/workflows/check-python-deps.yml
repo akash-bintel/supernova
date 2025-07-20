@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   check-python-deps:
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
     steps:
       - name: "Checkout ${{ github.ref }} ( ${{ github.sha }} )"
         uses: actions/checkout@v4
