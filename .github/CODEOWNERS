@@ -1,0 +1,32 @@
+# Notify all committers of DB migration changes, per SIP-59
+
+# https://github.com/apache/superset/issues/13351
+
+/superset/migrations/ @akash-bintel
+
+# Notify some committers of changes in the components
+
+/superset-frontend/src/components/Select/ @akash-bintel
+/superset-frontend/src/components/MetadataBar/ @akash-bintel
+/superset-frontend/src/components/DropdownContainer/ @akash-bintel
+
+# Notify Helm Chart maintainers about changes in it
+
+/helm/superset/ @akash-bintel
+
+# Notify E2E test maintainers of changes
+
+/superset-frontend/cypress-base/ @akash-bintel
+
+# Notify PMC members of changes to GitHub Actions
+
+/.github/ @akash-bintel
+
+# Notify PMC members of changes to required GitHub Actions
+
+/.asf.yaml @akash-bintel
+
+# Maps are a finicky contribution process we care about
+
+**/*.geojson @akash-bintel
+/superset-frontend/plugins/legacy-plugin-chart-country-map/ @akash-bintel
